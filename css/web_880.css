@@ -1,0 +1,56 @@
+section {
+    padding: 40px 10px!important;
+    text-align: center;
+    margin: 0!important;
+}
+.web-left{
+    width: 100%!important;
+    padding:0!important;
+}
+.web-right{
+    display:none;
+}
+.web-section .web-row .web-left h1{
+    font-size: 1.5em!important;
+}
+.web-section .web-row .web-left h1 img{
+    max-width: 80px;
+}
+.web-section .web-row .web-left .featurepart .feature img{
+    max-height: 50px;
+}
+.web-section .web-row .web-left .featurepart .feature h3{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 1em;
+}
+.web-section .web-row .web-left .textcopy{
+    font-size: 0.8em!important;
+    line-height: 1.2em;
+    padding-left: 1em;
+}
+.web-hire .web-companys ul li{
+    float: none!important;
+    margin-left: 20px;
+    text-align: right;
+    width: 50%!important;
+    height: 80px;
+}
+.teacher .tow ul li{
+    width: 100%!important;
+}
+.teacher .tow ul li img{
+    max-width: 50px!important;
+    max-height: 50px!important;
+    margin-right: 10px!important;
+    margin-left: 10px;
+}
+.teacher .tow ul li .describe{
+    float: left;
+    font-size: 0.5em!important;
+    line-height: 1.4em;
+}
+.works .ims .img{
+    width: 80%!important;
+    margin:20px 10%!important;
+}
