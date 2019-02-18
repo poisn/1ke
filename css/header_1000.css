@@ -1,0 +1,225 @@
+header{
+    height: 50px;
+    transition:all 0.4s;
+    z-index: 101;
+}
+header .logo {
+    top: 12px;
+    left: 5%;
+}
+header .logo img{
+    max-height: 30px;
+}
+body{
+    position: absolute;
+    transition:all 0.4s;
+}
+
+
+header .cd-nav .cd-search-trigger{
+    top: 5px;
+    right: 3.6em;
+}
+
+
+
+header .cd-nav .cd-primary-nav{
+    display: none;
+}
+header .cd-nav .lie{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+header .cd-nav .lie .s-gang{
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    transition: background 0.3s 0.3s;
+    display: inline-block;
+    height: 3px;
+    width: 24px;
+    background: #2e3233;
+}
+header .cd-nav .lie .s-gang:before {
+    content: '';
+    transform: translateZ(0);
+    transform-origin: 0% 50%;
+    transition: transform 0.3s 0.3s;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    height: 3px;
+    width: 24px;
+    background: #2e3233;
+}
+header .cd-nav .lie .s-gang:after{
+    content: '';
+    right: 0;
+    backface-visibility: hidden;
+    transition: transform 0.3s 0.3s;
+    position: absolute;
+    top:13px;
+    display: inline-block;
+    height: 3px;
+    width: 24px;
+    background: #2e3233;
+}
+
+
+
+header .cd-nav .cd-primary-nav{
+    visibility: visible;
+    transition: visibility 0s 0s;
+    position: fixed;
+    right:-70%;
+    top: 0;
+    height: 100000px;
+    width: 70%;
+    background: #2e3233;
+    /*overflow: auto;*/
+    transform: translateX(0);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: none;
+    z-index: 101;
+}
+header .cd-nav .cd-primary-nav > li{
+    width: 100%;
+    border-bottom: 1px solid #3a3f40;
+    margin: 0;
+}
+header .cd-nav .cd-primary-nav > li > a{
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform: translateZ(0);
+    will-change: transform, opacity;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+
+
+header .cd-nav .tou{
+    position: relative;
+}
+header .cd-nav .tou:before{
+    right:70px;
+    transform-origin: 9px 50%;
+    transform: rotate(45deg);
+    content: '';
+    position: absolute;
+    top:29px;
+    margin-top: -1px;
+    display: inline-block;
+    height: 2px;
+    width: 10px;
+    background: #464c4e;
+    backface-visibility: hidden;
+}
+header .cd-nav .tou:after{
+    right:70px;
+    transform-origin: 9px 50%;
+    transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    top: 30px;
+    margin-top: -1px;
+    display: inline-block;
+    height: 2px;
+    width: 10px;
+    background: #464c4e;
+    backface-visibility: hidden;
+}
+header .cd-nav .zuo-tou{
+    position: relative;
+    margin-left: 18px;
+}
+header .cd-nav .zuo-tou:before{
+    left: 0;
+    transform-origin: 1px 50%;
+    transform: rotate(45deg);
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    display: inline-block;
+    height: 2px;
+    width: 10px;
+    background: #464c4e;
+    backface-visibility: hidden;
+}
+header .cd-nav .zuo-tou:after{
+    left: 0;
+    transform-origin: 1px 50%;
+    transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    display: inline-block;
+    height: 2px;
+    width: 10px;
+    background: #464c4e;
+    backface-visibility: hidden;
+}
+
+
+.x_hao {
+    background: rgba(46, 50, 51, 0);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -2px;
+    transition: background 0.3s 0.3s;
+    display: inline-block;
+    height: 3px;
+    width: 24px;
+}
+.x_hao:before{
+    transform: translateX(4px) translateY(-3px) rotate(45deg);
+    background: #2e3233;
+    top: -1px;
+    content: '';
+    right:10px;
+    transform-origin: 0% 50%;
+    transition: transform 0.3s 0.3s;
+    position: absolute;
+    display: inline-block;
+    height: 3px;
+    width: 24px;
+}
+.x_hao:after{
+    transform: translateX(4px) translateY(2px) rotate(-45deg);
+    background: #2e3233;
+    top: 1.5px;
+    content: '';
+    right: 15px;
+    backface-visibility: hidden;
+    transition: transform 0.3s 0.3s;
+    position: absolute;
+    display: inline-block;
+    height: 3px;
+    width: 24px;
+}
+
+
+header .cd-nav .go-back{
+    display: block;
+}
+header .cd-nav .see-all{
+    display: block;
+}
