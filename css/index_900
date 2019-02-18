@@ -1,0 +1,57 @@
+.section{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.section h2{
+    font-size: 35px;
+}
+.section .row{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.section .row ul{
+    width: 100%;
+    height: auto;
+}
+.section .row ul li{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.hot{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.hot h2{
+    font-size: 35px;
+}
+.hot ul{
+    width: 100%;
+    height: auto;
+}
+.hot ul li{
+    width: 90%;
+    margin: 5% 5%;
+    height: auto;
+    padding: 0;
+}
+
+.partner h2{
+    font-size: 35px;
+}
+.emmz{
+    margin: 5% 5% !important;
+}
+.nbs ul{
+    animation: lan 10s linear infinite normal;
+}
+.nbs ul li{
+    width: calc(98.3% / 20);
+    margin-left: 80px;
+}
