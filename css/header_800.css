@@ -1,0 +1,158 @@
+header .cd-nav .cd-primary-nav .has-children .hidden{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 812px;
+    width:100%;
+    background: #2e3233;
+    overflow: auto;
+    z-index: 1;
+    transform: translateX(0);
+    transition: transform 0.3s;
+    margin: 0;
+    padding: 0;
+}
+header .cd-nav .cd-primary-nav .has-children .hidden li{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #3a3f40;
+    height: 50px;
+}
+header .cd-nav .cd-primary-nav .has-children .hidden .has-children{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #3a3f40;
+    height: 50px;
+}
+header .cd-nav .cd-primary-nav .has-children .hidden > li > a{
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform: translateZ(0);
+    will-change: transform, opacity;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+
+header .cd-nav .cd-primary-nav .has-children .icons{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 812px;
+    width:100%;
+    background: #2e3233;
+    overflow: auto;
+    z-index: 1;
+    transform: translateX(0);
+    transition: transform 0.3s;
+    margin: 0;
+    padding: 0;
+
+}
+header .cd-nav .cd-primary-nav .has-children .icons li{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #3a3f40;
+    height: 50px;
+}
+header .cd-nav .cd-primary-nav  .has-children .icons li .cd-nav-item{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px solid #3a3f40;
+    height: 50px;
+}
+header .cd-nav .cd-primary-nav .has-children .icons > li > a{
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transform: translateZ(0);
+    will-change: transform, opacity;
+    transition: transform 0.3s, opacity 0.3s;
+}
+header .cd-nav .cd-primary-nav .has-children .icons > li > a > h3{
+    margin-top: 0;
+    padding-left: 20px;
+    line-height: 3;
+    font-weight: 200;
+}
+header .cd-nav .cd-primary-nav .has-children .icons > .see-all{
+    display: none;
+}
+
+
+
+.email{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 31px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, .16);
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #1dce73;
+    float: none;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+}
+.email .email-logo{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 14px;
+    float: none;
+    border: 0;
+    background-image: url(https://static.meiqia.com/dist/images/icon-mq-round@2x.png?v=slktr2n1k4l8r529) !important;
+    background-position: -32px 0 !important;
+    background-size: 64px auto !important;
+    background-repeat: no-repeat !important;
+}
+
+
+footer .wrap{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+footer .wrap .ban{
+    width: 90%;
+    height: auto;
+}
+footer .wrap .ban p{
+    margin-bottom: 10px;
+    height: auto;
+}
+footer .fast{
+    display: none;
+}
+footer .cox{
+    display: block;
+    width: 100%!important;
+    /*height: 80px!important;*/
+    float:none!important;
+}
+footer .fast h3{
+    font-size: 22px!important;
+    width: 80%;
+}
